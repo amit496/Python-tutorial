@@ -1,0 +1,109 @@
+
+🧩 **Basic Information & Checking**
+
+| Method                 | Description                                              |
+| ---------------------- | -------------------------------------------------------- |
+| `len(s)`               | Returns the length of the string.                        |
+| `str()`                | Converts an object to a string.                          |
+| `s.isalnum()`          | Returns `True` if all characters are alphanumeric.       |
+| `s.isalpha()`          | Returns `True` if all characters are alphabetic.         |
+| `s.isascii()`          | Returns `True` if all characters are ASCII.              |
+| `s.isdigit()`          | Returns `True` if all characters are digits.             |
+| `s.isdecimal()`        | Returns `True` if all characters are decimal characters. |
+| `s.isnumeric()`        | Returns `True` if all characters are numeric.            |
+| `s.islower()`          | Returns `True` if all characters are lowercase.          |
+| `s.isupper()`          | Returns `True` if all characters are uppercase.          |
+| `s.istitle()`          | Returns `True` if string is titlecased.                  |
+| `s.isspace()`          | Returns `True` if string contains only whitespace.       |
+| `s.isprintable()`      | Returns `True` if all characters are printable.          |
+| `s.startswith(prefix)` | Checks if string starts with given substring.            |
+| `s.endswith(suffix)`   | Checks if string ends with given substring.              |
+
+---
+
+## ✂️ **Modification / Transformation**
+
+| Method                         | Description                                                  |
+| ------------------------------ | ------------------------------------------------------------ |
+| `s.lower()`                    | Converts all characters to lowercase.                        |
+| `s.upper()`                    | Converts all characters to uppercase.                        |
+| `s.capitalize()`               | Capitalizes the first letter.                                |
+| `s.title()`                    | Converts string to title case.                               |
+| `s.swapcase()`                 | Swaps case of all letters.                                   |
+| `s.casefold()`                 | Aggressively converts string to lowercase (for comparisons). |
+| `s.strip()`                    | Removes leading and trailing whitespace.                     |
+| `s.lstrip()`                   | Removes leading whitespace.                                  |
+| `s.rstrip()`                   | Removes trailing whitespace.                                 |
+| `s.replace(old, new[, count])` | Replaces occurrences of substring.                           |
+| `s.expandtabs(tabsize=8)`      | Replaces tabs with spaces.                                   |
+| `s.center(width[, fillchar])`  | Centers the string.                                          |
+| `s.ljust(width[, fillchar])`   | Left aligns string.                                          |
+| `s.rjust(width[, fillchar])`   | Right aligns string.                                         |
+| `s.zfill(width)`               | Pads string with zeros on the left.                          |
+
+---
+
+## 🔍 **Searching**
+
+| Method                          | Description                                               |
+| ------------------------------- | --------------------------------------------------------- |
+| `s.find(sub[, start[, end]])`   | Returns lowest index of substring, or `-1` if not found.  |
+| `s.rfind(sub[, start[, end]])`  | Returns highest index of substring, or `-1` if not found. |
+| `s.index(sub[, start[, end]])`  | Like `find()` but raises `ValueError` if not found.       |
+| `s.rindex(sub[, start[, end]])` | Like `rfind()` but raises `ValueError` if not found.      |
+| `s.count(sub[, start[, end]])`  | Counts occurrences of substring.                          |
+
+---
+
+## 🧱 **Splitting & Joining**
+
+| Method                            | Description                                                     |
+| --------------------------------- | --------------------------------------------------------------- |
+| `s.split(sep=None, maxsplit=-1)`  | Splits string into list by separator.                           |
+| `s.rsplit(sep=None, maxsplit=-1)` | Splits from the right.                                          |
+| `s.splitlines(keepends=False)`    | Splits string by line breaks.                                   |
+| `sep.join(iterable)`              | Joins elements of an iterable with `sep` as delimiter.          |
+| `s.partition(sep)`                | Splits into a tuple `(before, sep, after)` at first occurrence. |
+| `s.rpartition(sep)`               | Splits at last occurrence of `sep`.                             |
+
+---
+
+## 🧮 **Formatting**
+
+| Method                      | Description                                             |
+| --------------------------- | ------------------------------------------------------- |
+| `s.format(*args, **kwargs)` | Formats string with placeholders `{}`.                  |
+| `s.format_map(mapping)`     | Formats string using a dictionary.                      |
+| `s.maketrans(x[, y[, z]])`  | Creates a translation table for use with `translate()`. |
+| `s.translate(table)`        | Returns string with mapped characters replaced.         |
+
+---
+
+## 🧠 **Encoding & Decoding**
+
+| Method                                        | Description                |
+| --------------------------------------------- | -------------------------- |
+| `s.encode(encoding='utf-8', errors='strict')` | Encodes string into bytes. |
+
+---
+
+## ⚙️ **Other Special Methods**
+
+| Method                                            | Description                                   |
+| ------------------------------------------------- | --------------------------------------------- |
+| `repr(s)`                                         | Returns a printable representation of string. |
+| `bytes.decode(encoding='utf-8', errors='strict')` | Decodes bytes into string.                    |
+
+---
+
+### ✅ Example:
+
+```python
+text = "  Hello World!  "
+print(text.strip().lower().replace("world", "Python"))
+# Output: 'hello python'
+```
+
+---
+
+Would you like me to include **examples for each function** (like a mini reference table with outputs)?

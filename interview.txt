@@ -1,0 +1,73 @@
+Python Introduction – Interview Questions
+
+Basic Level
+1. Python kya hai? Python ke key features kya hain?
+2. Python kaise interpreted language hai aur compiled language se kaise different hai?
+3. Python me dynamically typed aur strongly typed ka kya matlab hai?
+4. Python ke different data types kya hain?
+5. Python me indentation ka role kya hai?
+6. Python ke mutable aur immutable objects ka difference bataiye.
+7. Python me `==` aur `is` ka difference kya hai?
+8. Python me list aur tuple me difference bataiye.
+9. Python me string aur list slicing ka example dijiye.
+10. Python me function kya hai aur kaise define karte hain?
+
+Intermediate / Advanced Level
+1. Python ke `*args` aur `**kwargs` ka use kya hai?
+2. Python me decorators kya hote hain? Ek simple example dijiye.
+3. Python me lambda function kya hai aur kab use hota hai?
+4. Python me list comprehension kya hai? Example ke sath.
+5. Python me generator aur iterator me kya difference hai?
+6. Python me GIL (Global Interpreter Lock) kya hai aur iska impact kya hai?
+7. Python me memory management kaise hoti hai?
+8. Python me deep copy aur shallow copy me kya difference hai?
+9. Python me modules aur packages ka difference kya hai?
+10. Python me exception handling kaise karte hain? `try`, `except`, `finally` ka example dijiye.
+
+Python Variables – Interview Questions
+
+Basic Level
+1. Python me variable kya hota hai aur kaise declare karte hain?
+2. Python me variable naming rules kya hain?
+3. Python me dynamically typed ka matlab variables ke context me kya hai?
+4. Python me multiple variables ek line me kaise assign karte hain?
+5. Python me constants kaise define karte hain?
+
+Intermediate / Advanced Level
+1. Python me local aur global variables me difference kya hai?
+2. Python me `nonlocal` aur `global` keywords ka use kaise hota hai?
+3. Python me variable shadowing kya hota hai?
+4. Python me memory me variables ka storage kaise hota hai (references vs objects)?
+5. Python me immutable aur mutable variables ka behavior kaise differ karta hai?
+
+Python Data Types – Interview Questions
+
+Basic Level
+1. Python me basic data types kaun kaun se hain? (int, float, bool, str, list, tuple, dict, set)
+2. Python me type checking kaise karte hain? (`type()` ka example)
+3. Python me type conversion kaise karte hain? (casting)
+4. Python me mutable aur immutable data types kaun se hain?
+5. Python me boolean type ka use aur True/False ka meaning kya hai?
+
+Intermediate / Advanced Level
+1. Python me list, tuple, set aur dict me differences kya hain?
+2. Python me `frozenset` kya hai aur kab use hota hai?
+3. Python me data type ka memory footprint kaise check karte hain? (`sys.getsizeof()`)
+4. Python me sequence data types ke operations kaun kaun se hote hain? (indexing, slicing, concatenation)
+5. Python me custom data types (class objects) kaise banate hain aur unka type kaise check karte hain?
+
+Python Strings – Interview Questions
+
+Basic Level
+1. Python me string kya hai aur kaise declare karte hain?
+2. Python me single quotes, double quotes aur triple quotes ka difference kya hai?
+3. Python me string immutable hota hai – iska matlab kya hai?
+4. Python me string indexing aur slicing kaise karte hain?
+5. Python me string concatenation aur repetition kaise karte hain?
+
+Intermediate / Advanced Level
+1. Python me string methods kaun kaun se hote hain? (`upper()`, `lower()`, `strip()`, `split()`, `join()`, `replace()`, etc.)
+2. Python me f-strings aur `.format()` method me kya difference hai?
+3. Python me raw strings (`r""`) ka use kab aur kyon hota hai?
+4. Python me string encoding aur decoding kya hota hai?
+5. Python me string immutability ka impact memory aur performance par kaise padta hai?
